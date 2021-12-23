@@ -1,0 +1,14 @@
+.intro {
+  padding: 35px 25px;
+  max-width: 60ch;
+}
+
+.intro p {
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}

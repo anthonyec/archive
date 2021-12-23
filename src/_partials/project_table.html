@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="../assets/css/project-table.css">
+
+<table class="project-table">
+  <thead>
+    <tr>
+      <td>Year</td>
+      <td>Project</td>
+      <td>Type</td>
+      <td>Description</td>
+    </tr>
+  </thead>
+  <tbody>
+    {{#projects}}
+      <tr class="{{#draft}}disabled{{/draft}}">
+        <td title="Age {{#formatDateAsAge}}{{date}}{{/formatDateAsAge}}">
+          {{#formatDateAsYear}}{{date}}{{/formatDateAsYear}}
+        </td>
+        <td class="link">
+          <a {{^draft}} href="{{path}}" {{/draft}} class="{{#draft}}disabled{{/draft}}">
+            {{title}}
+          </a>
+        </td>
+        <td>
+          {{type}}
+        </td>
+        <td>
+          {{description}}
+        </td>
+      </tr>
+    {{/projects}}
+
+    <tr class="disabled">
+      <td title="Age {{#formatDateAsAge}}1992{{/formatDateAsAge}}">
+        1992
+      </td>
+      <td class="link">
+        <a class="disabled">
+          Born
+        </a>
+      </td>
+      <td>
+        birth
+      </td>
+      <td>
+        I was have been born
+      </td>
+    </tr>
+  </tbody>
+</table>

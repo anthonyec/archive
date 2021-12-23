@@ -1,0 +1,24 @@
+{
+  "name": "archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static-build ./src ./dist -f -w",
+    "build": "static-build ./src ./dist -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyec/archive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyec/archive/issues"
+  },
+  "homepage": "https://github.com/anthonyec/archive#readme",
+  "devDependencies": {
+    "static-build": "github:anthonyec/static_build#a1ddbbd1d29a47b4c0891076904254749abbe5a8"
+  }
+}

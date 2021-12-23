@@ -1,0 +1,6 @@
+.flash-player {
+  background: gray;
+  display: inline-block;
+  border: 1px solid black;
+  max-width: 100%;;
+}

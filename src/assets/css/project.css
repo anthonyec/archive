@@ -1,0 +1,64 @@
+.project {
+  max-width: 800px;
+  padding: 0 25px 25px;
+}
+
+/* Hide title that comes from markdown file and use title from project layout. */
+.project h1:first-child + h1 {
+  display: none;
+}
+
+.project h1,
+.project h2,
+.project h3,
+.project h4 {
+  font-weight: normal;
+}
+
+.project video,
+.project img {
+  max-width: 100%;
+}
+
+.project video {
+  background: gray;
+  border: 1px solid black;
+}
+
+.project p,
+.project ul {
+  line-height: 1.5;
+}
+
+.project pre {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  overflow-x: scroll;
+}
+
+.project blockquote {
+  background: rgba(0, 0, 0, 0.1);
+  white-space: pre;
+  margin: 0;
+  padding: 12px 18px;
+}
+
+.project blockquote p {
+  margin: 0;
+}
+
+.project__image-side-by-side {
+  display: flex;
+}
+
+.project__image-side-by-side p {
+  margin-right: 15px;
+}
+
+.project__image-side-by-side p:last-child {
+  margin-right: 0;
+}
+
+.project .youtube-embed {
+  margin: 15px 0;
+}
