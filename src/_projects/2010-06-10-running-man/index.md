@@ -37,9 +37,9 @@ This is the raw footage that the project uses. For each scene there is a city an
   <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/Video_Medium.f4v">Download video</a>
 </div>
 
-These are the more "interesting" clips from the raw footage. I think we filmed all of it in about 2 days. We filmed the city footage first and then spent a lot of time playing [Portal](https://en.wikipedia.org/wiki/Portal_(video_game)). Luckily it was summer so we still had enough light to go to the park and film the forest scenes.
+These are the more "interesting" clips from the raw footage. We filmed all of in 2 days. First we shot the city footage and then spent a lot of time playing [Portal](https://en.wikipedia.org/wiki/Portal_(video_game). Luckily it was summer so we still had enough light to go to the park and film the forest scenes.
 
-The film was pretty much made up on the spot.
+The film was pretty much made up on the spot. Maybe not that's surprising based on the story.
 
 <div class="youtube-embed">
   <div class="youtube-embed__video">
