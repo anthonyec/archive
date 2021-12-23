@@ -13,7 +13,8 @@ module.exports = {
       'Archive of projects Ive done',
     keywords: 'just, a, great, archive',
     timestamp: () => Date.now(),
-    date: () => new Date()
+    date: () => new Date(),
+    baseUrl: process.env.NODE_ENV === 'dev' ? '' : 'https://anthonycossins.com/archive'
   },
 
   async getPages({ collection }) {
