@@ -1,0 +1,131 @@
+var debugEnabled = false;
+var demoEnabled = true;
+var allowTransition: Boolean = true;
+var delayCount: Number = 0;
+var delayLimit: Number = 3;
+var amountLoaded: Number;
+var currentTime: Number = Math.floor(ns.time);
+var isPlaying: Boolean = false;
+var isPaused: Boolean = false;
+var videoFile: String = "Video_Medium.f4v";
+var maxNumbers: Number = 7;
+var randomNumbers: Array = new Array();
+var videoInterval = setInterval(videoStatus, 100);
+var nc: NetConnection = new NetConnection();
+nc.connect(null);
+var ns: NetStream = new NetStream(nc);
+videoHolder.video.attachVideo(ns);
+
+function videoStatus() {
+  if (amountLoaded != 1) {
+    amountLoaded = ns.bytesLoaded / ns.bytesTotal;
+    amountLoadedNum = Math.round(amountLoaded * 100);
+    menu.playBtn.gotoAndStop(amountLoadedNum / 2 + 1);
+  } else {
+    menu.playBtn.gotoAndStop(51);
+    clearInterval(videoInterval);
+  }
+}
+
+function initVideo() {
+  Mouse.show();
+  createNumbers();
+  isPlaying = false;
+  menu._visible = true;
+  videoHolder._visible = false;
+  ns.play(videoFile);
+  //ns.seek(1);
+  ns.pause();
+
+  if (demoEnabled == true) {
+    menu.gotoAndStop(2);
+  }
+}
+
+function playVideo() {
+  playCount += 1;
+  Mouse.hide();
+  videoHolder._visible = true;
+  isPlaying = true;
+  menu._visible = false;
+  ns.pause();
+}
+
+function createNumbers() {
+  randomNumbers = [];
+  for (i=1; i<maxNumbers; i++) {
+    randomNumbers.push(Math.floor(Math.random()*2));
+  }
+
+  echo("New numbers are: "+randomNumbers);
+}
+
+function setDelay() {
+  if (delayCount != delayLimit) {
+    delayCount = delayLimit;
+    allowTransition = true;
+    delayCount += 1;
+    setInterval(setDelay, 1000);
+  } else {
+    delayLimit = 0;
+    allowTransition = false
+    clearInterval(delay);
+  }
+}
+delay = setInterval(setDelay, 1000);
+
+function checkTime(timeCheck:Number, randomNum:Number, firstOutcome:Number, secondOutcome:Number) {
+  if (allowTransition == true) {
+    if (currentTime == timeCheck) {
+      if (randomNumbers[randomNum] == 0) {
+        setDelay();
+        echo("The time "+timeCheck+" has been reached. The random number was "+randomNumbers[randomNum]+". Will continue playing as normal.");
+        setDelay
+      }
+      if (randomNumbers[randomNum] == 1) {
+        setDelay();
+        ns.seek(secondOutcome);
+        echo("The time "+timeCheck+" has been reached. The random number was "+randomNumbers[randomNum]+". Now going to outcome "+secondOutcome+".");
+      }
+    }
+  }
+}
+
+function gotoTime(timeCheck:Number, timeGoto:Number) {
+  if (currentTime == timeCheck) {
+    ns.seek(timeGoto);
+  }
+}
+
+function timeFunction(timeCheck:Number, funct:Function) {
+  if (currentTime == timeCheck) {
+    funct();
+  }
+}
+
+onEnterFrame = function () {
+  if (isPlaying == true) {
+    realTime = ns.time;
+    currentTime = int((ns.time)*10)/10;
+    ///checkTime(Time to check The random number to check, firstOutcome:Number, secondOutcome:Number)
+    ///CITY///
+    checkTime(1.5,0,3,160.8); //First start either waking up in city or woods
+    checkTime(29,1,32,184.8);	//Phone blur transition
+    checkTime(41,2,242,196.2);	//Black train transistion
+    checkTime(56,3,42,211.9);	//Newspaper transisition
+    gotoTime(88.8,240);	//After falling video
+    checkTime(250.4,4,251,96); //After getting up its either street or woods walk
+    checkTime(132,5,131,286);	//Opening gate, different endings
+    ///WOODS///
+    checkTime(182.5,1,182.5,31);	//Phone blur transition
+    checkTime(195,2,196,42);	//Black train transistion
+    checkTime(211,3,211,57.5);	//Newspaper transisition
+    gotoTime(237.2,83.5);	//On woods fall down, goto the falling video
+    checkTime(95,4,96,250);	//After getting up its either street or woods walk
+    checkTime(285,5,286,134);	//Opening gate, different endings
+    timeFunction(301.8,initVideo);	//Finish video
+    timeFunction(150,initVideo);
+  }
+};
+
+initVideo();
