@@ -193,5 +193,7 @@ Most of the inspiration is from smaller projects found on YouTube, Vimeo or othe
 
 ## Assets
 
-- [Download finished project](assets/running_man.zip)
+- [Download finished project](https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/running_man.zip)
+- [Download font](assets/Stamp.ttf)
 - [Download source](assets/Running_Man.fla)
+- [Download source video](https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/Video_Medium.f4v)
