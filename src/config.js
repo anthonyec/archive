@@ -14,7 +14,8 @@ module.exports = {
     keywords: 'just, a, great, archive',
     timestamp: () => Date.now(),
     date: () => new Date(),
-    baseUrl: process.env.NODE_ENV === 'dev' ? '' : 'https://anthonycossins.com/archive'
+    baseUrl: process.env.NODE_ENV === 'dev' ? '' : 'https://anthonycossins.com/archive',
+    assertBaseUrl: process.env.NODE_ENV === 'dev' ? '' : 'https://hopeful-galileo-dc893b.netlify.app'
   },
 
   async getPages({ collection }) {
