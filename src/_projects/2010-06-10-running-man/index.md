@@ -18,7 +18,11 @@ Running Man does not work with [Ruffle](https://ruffle.rs/) (Flash Player emulat
 Here is a "compiled" version of one viewing of Running Man.
 
 <div class="youtube-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6aFpkF93als" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="youtube-embed__video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6aFpkF93als" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/running_man_render.mov">Download video</a>
 </div>
 
 ### Raw Footage
@@ -26,7 +30,11 @@ Here is a "compiled" version of one viewing of Running Man.
 This is the raw footage that the project uses. For each scene there is a city and forest counter part. All the scenes are stored in one video file, and at specific cut points it will seek to a random scene.
 
 <div class="youtube-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/V71Yqt_Pkoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="youtube-embed__video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V71Yqt_Pkoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/Video_Medium.f4v">Download video</a>
 </div>
 
 These are the more "interesting" clips from the raw footage. I think we filmed all of it in about 2 days. We filmed the city footage first and then spent a lot of time playing [Portal](https://en.wikipedia.org/wiki/Portal_(video_game)). Luckily it was summer so we still had enough light to go to the park and film the forest scenes.
@@ -34,7 +42,11 @@ These are the more "interesting" clips from the raw footage. I think we filmed a
 The film was pretty much made up on the spot.
 
 <div class="youtube-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZoFzTJovT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="youtube-embed__video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZoFzTJovT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/bits_of_raw_footage_render.mov">Download video</a>
 </div>
 
 Originally I wanted the experience to appear as one seamless take, but that's super difficult (and impossible for my skill level). Micah suggested having black frames put in through out to act as the main character blinking. Instead I went for just directly cutting, inspired by how [other first person films](#inspiration) were edited. But I think the blinking could've been cool.
@@ -42,7 +54,11 @@ Originally I wanted the experience to appear as one seamless take, but that's su
 This is all the raw footage I have from the project. Warning, it's very boring.
 
 <div class="youtube-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5_k9ahfG9GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="youtube-embed__video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5_k9ahfG9GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/raw_footage.mov">Download video</a>
 </div>
 
 ## Screenshots
@@ -141,7 +157,11 @@ This is the moodboard that depicted the style I wanted to go for. It's funny see
 These are clips from my main inspirations of the project.
 
 <div class="youtube-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sBAJKs5iOQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="youtube-embed__video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sBAJKs5iOQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://anthony-cossins-archive.s3.eu-west-1.amazonaws.com/2010-06-10-running-man/running_man_inspiration.mov">Download video</a>
 </div>
 
 This is the "bibliography" for Running Man. A lot of the links are probably broken now.
