@@ -1,6 +1,11 @@
 .intro {
   padding: 35px 25px;
-  max-width: 60ch;
+  max-width: 50ch;
+}
+
+.intro__logo {
+  width: 130px;
+  margin-bottom: 30px;
 }
 
 .intro p {
