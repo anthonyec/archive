@@ -1,6 +1,10 @@
-<!-- description: A small fake operating system, Flash "portal" for the PSP -->
-<!-- type: interactive -->
-<!-- draft: true -->
+<data sb:buildtime>
+  {
+    "description": "A small fake operating system, Flash \"portal\" for the PSP",
+    "type": "interactive",
+    "draft": true
+  }
+</data>
 
 # Opollo
 
