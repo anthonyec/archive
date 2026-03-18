@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=dev static-build ./src ./dist -f -w",
-    "build": "static-build ./src ./dist -f"
+    "start": "staticbuild ./src ./dist --watch",
+    "build": "staticbuild ./src ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "url": "https://github.com/anthonyec/archive/issues"
   },
   "homepage": "https://github.com/anthonyec/archive#readme",
-  "devDependencies": {
-    "static-build": "github:anthonyec/static_build#a1ddbbd1d29a47b4c0891076904254749abbe5a8"
+  "dependencies": {
+    "@anthonyec/staticbuild": "^3.0.2"
   }
 }

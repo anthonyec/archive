@@ -1,5 +1,9 @@
-<!-- description: Dynamic film  that changes each time you watch it -->
-<!-- type: installation -->
+<data sb:buildtime>
+  {
+    "description": "Dynamic film that changes each time you watch it",
+    "type": "installation"
+  }
+</data>
 
 # Running Man
 
