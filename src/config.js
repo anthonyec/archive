@@ -5,7 +5,6 @@ module.exports = {
   env: {
     dev: process.env.NODE_ENV === 'dev'
   },
-
   site: {
     url: 'https://anthonycossins.com/archive',
     title: 'Archive',

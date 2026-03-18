@@ -15,9 +15,15 @@
 
 <div class="project">
   <h1>
+    <!-- Title in page.content is hidden via CSS so that this title can be used instead. -->
     {{page.title}} ({{#formatDateAsYear}}{{page.date}}{{/formatDateAsYear}})
   </h1>
+
   {{{page.content}}}
 </div>
 
 {{>project_table}}
+
+{{#env.dev}}
+  {{>hot_reload}}
+{{/env.dev}}
