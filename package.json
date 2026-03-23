@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "staticbuild ./src ./dist --watch",
+    "watch": "staticbuild ./src ./dist --watch",
     "build": "staticbuild ./src ./dist"
   },
   "repository": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/anthonyec/archive#readme",
   "dependencies": {
-    "@anthonyec/staticbuild": "^3.0.2"
+    "@anthonyec/staticbuild": "^3.0.9"
   }
 }
