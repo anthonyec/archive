@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/anthonyec/archive#readme",
   "dependencies": {
-    "@anthonyec/staticbuild": "^3.0.12"
+    "@anthonyec/staticbuild": "^3.0.13"
   }
 }
