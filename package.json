@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "staticbuild ./src ./dist --watch",
-    "build": "staticbuild ./src ./dist"
+    "watch": "staticbuild ./src ./dist --watch --remap 'projects/':''",
+    "build": "staticbuild ./src ./dist --remap 'projects':''"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/anthonyec/archive#readme",
   "dependencies": {
-    "@anthonyec/staticbuild": "^3.0.10"
+    "@anthonyec/staticbuild": "^3.0.12"
   }
 }
