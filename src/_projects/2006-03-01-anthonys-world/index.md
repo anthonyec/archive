@@ -1,10 +1,6 @@
-<data sb:buildtime>
-  {
-    "description": "Mini flash website",
-    "type": "interactive",
-    "draft": true
-  }
-</data>
+<!-- description: Mini flash website -->
+<!-- type: interactive -->
+<!-- draft: true -->
 
 # Anthonys World
 

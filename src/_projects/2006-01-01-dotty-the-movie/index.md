@@ -1,8 +1,4 @@
-<data sb:buildtime>
-  {
-    "type": "film",
-    "draft": true
-  }
-</data>
+<!-- type: film -->
+<!-- draft: true -->
 
 # Dotty: The Movie

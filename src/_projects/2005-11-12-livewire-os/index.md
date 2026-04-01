@@ -1,8 +1,4 @@
-<data sb:buildtime>
-  {
-    "type": "design",
-    "draft": true
-  }
-</data>
+<!-- type: design -->
+<!-- draft: true -->
 
 # Livewire OSi

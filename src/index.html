@@ -1,17 +1,13 @@
-<title>Archive</title>
-
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Archive of projects I've done">
-<meta name="keywords" content="just, a, great, archive">
 
-<link rel="stylesheet" href="./assets/css/body.css">
-<link rel="stylesheet" href="./assets/css/intro.css">
+<link rel="stylesheet" href="{{site.assetsBaseUrl}}/assets/css/body.css">
+<link rel="stylesheet" href="{{site.assetsBaseUrl}}/assets/css/intro.css">
 
 <script async defer type="text/javascript" data-domain="anthonycossins.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
 
 <div class="intro">
-  <img class="intro__logo" src="./assets/logo.png" alt="Logo">
+  <img class="intro__logo" src="{{site.assetsBaseUrl}}/assets/logo.png" alt="Logo">
 
   <p>
     An archive of projects that I've worked on. Both unfinished and finished, created alone or with other people. But all made for the sake of making (or a school deadline).
@@ -26,10 +22,12 @@
   </p>
 </div>
 
-<sb:include src="./_partials/_project_table.html"/>
+{{>project_table}}
+
+{{#env.dev}}
+  {{>hot_reload}}
+{{/env.dev}}
 
 <div class="intro">
   <p>Source on <a href="https://github.com/anthonyec/archive">GitHub</a>. Inspired by <a href="https://jonaspelzer.com/websites/" target="_blank">Jonas Pelzer's website archive</a>.</p>
-  <br>
-  <sb:include src="./node_modules/@anthonyec/staticbuild/dist/partials/_badge.html" />
 </div>
