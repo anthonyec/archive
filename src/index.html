@@ -1,33 +1,27 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<sb:include src="./_partials/_page.html">
+  <link rel="stylesheet" href="./assets/css/intro.css">
 
-<link rel="stylesheet" href="{{site.assetsBaseUrl}}/assets/css/body.css">
-<link rel="stylesheet" href="{{site.assetsBaseUrl}}/assets/css/intro.css">
+  <div class="intro">
+    <img class="intro__logo" src="./assets/logo.png" alt="Logo">
 
-<script async defer type="text/javascript" data-domain="anthonycossins.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+    <p>
+      An archive of projects that I've worked on. Both unfinished and finished, created alone or with other people. But all made for the sake of making (or a school deadline).
+    </p>
 
-<div class="intro">
-  <img class="intro__logo" src="{{site.assetsBaseUrl}}/assets/logo.png" alt="Logo">
+    <p>
+      This does not contain everything and is <strong>not</strong> a portfolio.
+    </p>
 
-  <p>
-    An archive of projects that I've worked on. Both unfinished and finished, created alone or with other people. But all made for the sake of making (or a school deadline).
-  </p>
+    <p>
+      It's a place for preservation to say "hey, these things existed".
+    </p>
+  </div>
 
-  <p>
-    This does not contain everything and is <strong>not</strong> a portfolio.
-  </p>
+  <sb:include src="./_partials/_project_table.html"/>
 
-  <p>
-    It's a place for preservation to say "hey, these things existed".
-  </p>
-</div>
-
-{{>project_table}}
-
-{{#env.dev}}
-  {{>hot_reload}}
-{{/env.dev}}
-
-<div class="intro">
-  <p>Source on <a href="https://github.com/anthonyec/archive">GitHub</a>. Inspired by <a href="https://jonaspelzer.com/websites/" target="_blank">Jonas Pelzer's website archive</a>.</p>
-</div>
+  <div class="intro">
+    <p>Source on <a href="https://github.com/anthonyec/archive">GitHub</a>. Inspired by <a href="https://jonaspelzer.com/websites/" target="_blank">Jonas Pelzer's website archive</a>.</p>
+    <br>
+    <sb:include src="./node_modules/@anthonyec/staticbuild/dist/partials/_badge.html" />
+  </div>
+</sb:include>
