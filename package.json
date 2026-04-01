@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "staticbuild ./src ./dist --watch --remap 'projects/':''",
-    "build": "staticbuild ./src ./dist --remap 'projects':''"
+    "start": "static-build ./src ./dist -f -w",
+    "build": "static-build ./src ./dist -f"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "url": "https://github.com/anthonyec/archive/issues"
   },
   "homepage": "https://github.com/anthonyec/archive#readme",
-  "dependencies": {
-    "@anthonyec/staticbuild": "^3.0.14"
+  "devDependencies": {
+    "static-build": "github:anthonyec/static_build#a1ddbbd1d29a47b4c0891076904254749abbe5a8"
   }
 }

@@ -1,9 +1,5 @@
-<data sb:buildtime>
-  {
-    "type": "installation",
-    "draft": true
-  }
-</data>
+<!-- type: installation -->
+<!-- draft: true -->
 
 # Robot Oracles
 

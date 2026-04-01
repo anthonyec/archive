@@ -1,8 +1,4 @@
-<data sb:buildtime>
-  {
-    "type": "interactive",
-    "draft": true
-  }
-</data>
+<!-- type: interactive -->
+<!-- draft: true -->
 
 # Launch Pad

@@ -1,8 +1,4 @@
-<data sb:buildtime>
-  {
-    "type": "game",
-    "draft": true
-  }
-</data>
+<!-- type: game -->
+<!-- draft: true -->
 
 # Blue House

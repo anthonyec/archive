@@ -1,10 +1,6 @@
-<data sb:buildtime>
-  {
-    "description": "Bunch of flash cartoons I made in the summer of 2004",
-    "type": "animation",
-    "draft": true
-  }
-</data>
+<!-- description: Bunch of flash cartoons I made in the summer of 2004 -->
+<!-- type: animation -->
+<!-- draft: true -->
 
 # Flash cartoons
 
